@@ -2,7 +2,6 @@
 title: "Hypothesis Testing under Normality: t vs. F "
 author: Vinicius Lima
 categories: ols
-tags: ols
 ---
 
 ```{r setup, include=FALSE}

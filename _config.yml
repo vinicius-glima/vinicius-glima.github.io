@@ -2,6 +2,8 @@ title: EconometriCode
 author: Vinicius Lima
 email: viniciuslimafgv at gmail dot com
 
+description: Some stuff on probability, statistics, econometrics, R, Stata, etc.
+
 show_excerpts: true # set to true to show excerpts on the homepage
 
 excerpt_separator: <!--end_excerpt-->

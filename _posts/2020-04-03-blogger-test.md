@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 A common question among students facing the problem of testing hypothesis in a multiple regression framework: What is the problem in making individual tests if I am interested in a joint hypothesis?
 
 Well, things become clear with some data and and even better with nice graphs.
-
+<!--end_excerpt-->
 ## Including Code
 
 You can include R code in the document as follows:

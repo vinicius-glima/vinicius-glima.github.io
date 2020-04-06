@@ -1,10 +1,12 @@
-----
+---
 title: "Linear Test with Dummies in Stata"
 author: "Vinicius Lima"
 tags: Stata
-----
+---
 If we have many categories in a single variable and want to include them as controls in a regression, then it is easy to do that in Stata by using the `i.` operator. How can we test their joint significance after estimation?
+<!--end_excerpt-->
 
+A simple example is:
 ```
 . sysuse auto
 (1978 Automobile Data)
@@ -34,3 +36,17 @@ If we have many categories in a single variable and want to include them as cont
 
 ```
 
+Then we test the coefficients for each category implied by `rep78`
+
+```
+. testparm(i.rep)
+
+ ( 1)  2.rep78 = 0
+ ( 2)  3.rep78 = 0
+ ( 3)  4.rep78 = 0
+ ( 4)  5.rep78 = 0
+
+       F(  4,    63) =    1.07
+            Prob > F =    0.3780
+
+```

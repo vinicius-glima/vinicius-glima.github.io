@@ -36,7 +36,7 @@ A simple example is:
 
 ```
 
-Then we test the coefficients for each category implied by `rep78`
+Then we test the coefficients for each category implied by `rep78` by using `testparm`.
 
 ```
 . testparm(i.rep)
@@ -50,4 +50,4 @@ Then we test the coefficients for each category implied by `rep78`
             Prob > F =    0.3780
 
 ```
-
+And we are done.

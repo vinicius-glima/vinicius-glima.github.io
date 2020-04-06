@@ -5,8 +5,12 @@ tags: Stata
 ---
 If we have many categories in a single variable and want to include them as controls in a regression, then it is easy to do that in Stata by using the `i.` operator. How can we test their joint significance after estimation?
 <!--end_excerpt-->
+<<<<<<< HEAD
 
 A simple example is:
+=======
+A simple example is
+>>>>>>> b95ae0b5b4d4ea047fafc89fd1ec53f8765a68f9
 ```
 . sysuse auto
 (1978 Automobile Data)

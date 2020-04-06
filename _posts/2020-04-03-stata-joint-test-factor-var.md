@@ -50,3 +50,4 @@ Then we test the coefficients for each category implied by `rep78`
             Prob > F =    0.3780
 
 ```
+
